@@ -15,7 +15,8 @@ app = Flask(__name__)
 def api():
 	A= {
 		'title':'hi' ,
-		'type' : 'test'
+		'type' : 'test',
+		'id' : 1
 	}
 	return A
 
